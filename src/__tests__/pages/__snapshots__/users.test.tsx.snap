@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When Users page is called and everything is ok Snapshot with users 1`] = `
+<div>
+  <div>
+    <h3>
+      Lista de Usuários
+    </h3>
+    <ul
+      data-testid="userList"
+    >
+      <li>
+         
+        mojombo
+         
+      </li>
+      <li>
+         
+        defunkt
+         
+      </li>
+      <li>
+         
+        pjhyett
+         
+      </li>
+    </ul>
+  </div>
+</div>
+`;
