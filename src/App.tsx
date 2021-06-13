@@ -1,10 +1,12 @@
-import React from 'react';
 import Users from './pages/users'
+import { Container } from 'react-bootstrap'
 
 function App() {
   return (
     <div className="App">
-      <Users />
+      <Container>
+        <Users />
+      </Container>
     </div>
   );
 }
