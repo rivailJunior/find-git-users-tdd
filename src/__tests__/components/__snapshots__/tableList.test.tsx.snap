@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Table Snapshot 1`] = `
+<table
+  class="table table-striped table-bordered table-hover"
+>
+  <thead
+    data-testid="tableHeader"
+  >
+    <tr>
+      <th>
+        Login
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    data-testid="userList"
+  >
+    <tr>
+      <td>
+        mojombo
+      </td>
+    </tr>
+    <tr>
+      <td>
+        defunkt
+      </td>
+    </tr>
+    <tr>
+      <td>
+        pjhyett
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

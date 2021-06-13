@@ -31,7 +31,7 @@ describe('List component', () => {
         test('Remove loading information', () => {
             render(<List loading={false} users={userList} />);
             expect(screen.queryByText(/Loading.../i)).not.toBeInTheDocument();
-        })
+        });
     })
 
 })
