@@ -13,12 +13,10 @@ export default function List({ loading, users }: iList) {
             {loading ? (
                 <div>Loading...</div>
             ) : (
-
-                <TableList
-                    data={users}
-                    headerProperties={[{ label: 'Login' }]}
-                    bodyProperties={[{ key: 'login' }]}
-                />
+                <TableList>
+                    <TableList.Header headerProperties={[{ label: 'Login' }]} />
+                    <TableList.Body data={users} bodyProperties={[{ key: 'login' }]} />
+                </TableList>
             )}
         </div>
     );
